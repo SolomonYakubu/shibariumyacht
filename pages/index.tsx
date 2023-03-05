@@ -221,8 +221,7 @@ const Home: NextPage = () => {
                 <div className="flex  items-start md:w-3/6 gap-2 md:mb-0 my-3 md:my-0 md:mt-6">
                   <button
                     onClick={() =>
-                      (window.location.href =
-                        "https://t.me/ShibariumMemeConnector")
+                      (window.location.href = "https://uniswap.org")
                     }
                     className="flex items-center justify-between gap-3 font-[Figtree]  hover:bg-gradient-to-tr hover:bg-primary bg-primary  text-white p-2 md:p-3 px-10 rounded-xl w-fit  border-none  "
                   >
@@ -231,8 +230,7 @@ const Home: NextPage = () => {
 
                   <button
                     onClick={() =>
-                      (window.location.href =
-                        "https://www.dextools.io/app/en/ether/pair-explorer/0xf6c67a208d8d13dce251158a314e27757c107509")
+                      (window.location.href = "https://www.dextools.io")
                     }
                     className="flex items-center justify-between gap-3 font-[Figtree]  hover:bg-gradient-to-tr hover:bg-primary bg-primary  text-white p-2 md:p-3 px-10 rounded-xl w-fit  border-none"
                   >
@@ -340,9 +338,7 @@ const Home: NextPage = () => {
                 </Zoom>
               ))}
               <button
-                onClick={() =>
-                  (window.location.href = "https://t.me/ShibariumMemeConnector")
-                }
+                onClick={() => (window.location.href = "https://t.me/")}
                 className="font-[Figtree] text-xl  flex-1 border border-solid border-white w-fit p-2 px-6 md:p-3 text-white rounded-xl"
               >
                 Join Us
@@ -624,25 +620,18 @@ const Home: NextPage = () => {
                 <div className=" flex flex-col items-center">
                   <div className="flex gap-3 my-3 justify-center items-center md:justify-start">
                     <a
-                      href="https://t.me/ShibariumMemeConnector"
+                      href="https://t.me"
                       className="bg-white text-white p-3 bg-opacity-25 rounded-full"
                     >
                       <BsTelegram size={35} />
                     </a>
                     <a
-                      href="https://mobile.twitter.com/Shibarium_MC"
+                      href="https://mobile.twitter.com"
                       className="bg-white text-white  p-3 bg-opacity-25 rounded-full"
                     >
                       <BsTwitter size={35} />
                     </a>
                   </div>
-
-                  <a
-                    className="text-white w-full text-center"
-                    href="mailto:shimcoerc@gmail.com"
-                  >
-                    shimcoerc@gmail.com
-                  </a>
                 </div>
               </Fade>
             </div>
