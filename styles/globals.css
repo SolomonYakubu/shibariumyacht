@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Figtree;
+  
+}
+
+:root{
+ --light-blue: #da6a60;
+ --purple: #9F2844;
+ --blue:  #7CD3EE;
+--black:#323A41;
+--bg1:#0c0c0c;
+
+}
+.active {
+
+  
+  background: #656873;
+    background-clip: text;
+    color: transparent;
+ 
+}
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .active {
+  
+     
+      background: #915b84;
+      background-clip: text;
+      color: transparent;
+   
+    }
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #000616;
+  }
+}
